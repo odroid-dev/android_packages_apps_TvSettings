@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- About screen, rom version label  [CHAR LIMIT=40] -->
+    <string name="rom_version">Mod version</string>
+
+</resources>
