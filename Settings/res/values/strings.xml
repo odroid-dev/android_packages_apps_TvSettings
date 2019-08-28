@@ -1551,7 +1551,7 @@
     <string name="bluetooth_permission_request">"Bluetooth permission request"</string>
 
     <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
-    <string name="security_patch">Android security patch level</string>
+    <string name="security_patch">Security patch level</string>
 
     <!-- App picker screen title -->
     <string name="choose_application">Choose application</string>
