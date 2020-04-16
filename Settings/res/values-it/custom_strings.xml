@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Button to shutdown the device [CHAR LIMIT=40] -->
+    <string name="shutdown_button_label">Spegni</string>
+    <!-- Title for shutdown confirmation in System Settings Developer options [CHAR LIMIT=50] -->
+    <string name="system_shutdown_confirm">Spegni ora?</string>
+
+</resources>
