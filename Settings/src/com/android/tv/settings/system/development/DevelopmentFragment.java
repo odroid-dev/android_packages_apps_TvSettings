@@ -629,7 +629,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         updateAppProcessLimitOptions();
         updateShowAllANRsOptions();
         updateVerifyAppsOverUsbOptions();
-        updateBugreportOptions();
+        //updateBugreportOptions();
         updateForceRtlOptions();
         mLogdSizeController.updateLogdSizeValues();
         mLogpersistController.updateLogpersistValues();
@@ -862,6 +862,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         return !mUm.hasUserRestriction(UserManager.DISALLOW_OEM_UNLOCK);
     }
 
+    /*
     private void updateBugreportOptions() {
         boolean enabled = "1".equals(SystemProperties.get("ro.debuggable"))
                 || mEnableDeveloper.isChecked();
@@ -883,6 +884,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
             Log.e(TAG, "Error taking bugreport", e);
         }
     }
+    */
 
     // Returns the current state of the system property that controls
     // strictmode flashes.  One of:
@@ -1472,8 +1474,8 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
                 mLastEnabledState = false;
                 setPrefsEnabledState(false);
             }
-        } else if (preference == mBugreport) {
-            captureBugReport();
+        /*} else if (preference == mBugreport) {
+            captureBugReport(); */
         } else if (preference == mEnableAdb) {
             if (mEnableAdb.isChecked()) {
                 // Pass to super to launch the dialog, then uncheck until the dialog
